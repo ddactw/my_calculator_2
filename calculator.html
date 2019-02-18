@@ -17,6 +17,11 @@
 				var num = document.getElementById("n1");
 				num.value = Math.sin(num.value);
 			}
+
+			function square() {
+				var num = document.getElementById("n1");
+				num.value = num.value * num.value;
+			}
 		</script>
 	</head>
 	<body>
@@ -27,6 +32,7 @@
 			<button onclick="cube()"> x^3 </button>
 			<button onclick="fourth()"> x^4 </button>
 			<button onclick="sine()"> sin(x) </button>
+			<button onclick="square()"> x^2 </button>
 		</p>
 	</body>
 </html>
